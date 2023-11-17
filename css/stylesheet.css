@@ -1,6 +1,6 @@
 .list-group{
     align-items: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .form-control{
@@ -11,5 +11,15 @@
 .barra-tarefa-nova{
     max-width: 300px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
+}
+
+.container{
+    height: 350px;
+    width: 300px;
+    background: antiquewhite;
+}
+
+.containertarefa{
+    background: lightgreen;
 }

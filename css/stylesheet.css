@@ -1,0 +1,9 @@
+.list-group{
+    align-items: center;
+    margin-top: 100px;
+}
+
+.form-control{
+    margin-top: 10px;
+    height: 50px;
+}

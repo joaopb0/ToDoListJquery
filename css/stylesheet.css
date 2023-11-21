@@ -16,10 +16,37 @@
 
 .container{
     height: 350px;
-    width: 300px;
-    background: antiquewhite;
+    width: 700px;
+    background: rgb(200, 240, 195);
+    outline: none;
 }
 
-.containertarefa{
-    background: lightgreen;
+ul .concluido, .deletar{
+    position: absolute;
+}
+
+ul .concluido{
+right: 65px;
+}
+
+ul .deletar{
+right: 0px;
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    height: 32px;
+    cursor: pointer;
+}
+
+.concluir{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+body{
+    background-image: url(../img/Fundo.webp);
 }
